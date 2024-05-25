@@ -1,0 +1,23 @@
+{
+	"scripts": {
+		"dev": "env NODE_ENV=develpment webpack serve",
+		"build": "env NODE_ENV=production webpack"
+	},
+	"devDependencies": {
+		"@types/copy-webpack-plugin": "*",
+		"@types/node": "*",
+		"@types/react": "*",
+		"@types/react-dom": "*",
+		"@types/webpack": "*",
+		"copy-webpack-plugin": "*",
+		"css-loader": "*",
+		"mini-css-extract-plugin": "*",
+		"style-loader": "*",
+		"ts-loader": "*",
+		"ts-node": "*",
+		"typescript": "*",
+		"webpack": "*",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*"
+	}
+}

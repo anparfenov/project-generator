@@ -5,17 +5,21 @@
 	"main": "src/main.js",
 	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"compile": "tsc",
+		"run:dev": "tsc && node ./dist/main.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"dataclass": "^2.1.1",
 		"kolorist": "^1.8.0",
 		"minimist": "^1.2.8",
 		"prompts": "^2.4.2"
 	},
 	"devDependencies": {
+		"@types/minimist": "^1.2.5",
+		"@types/prompts": "^2.4.9",
 		"eslint": "^8.43.0",
 		"eslint-config-prettier": "^8.8.0",
 		"prettier": "^2.8.8"

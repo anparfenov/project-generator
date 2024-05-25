@@ -1,0 +1,17 @@
+{
+	"name": "name",
+	"description": "desc",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "*",
+		"eslint-config-prettier": "*",
+		"postcss-custom-media": "*",
+		"prettier": "*",
+		"stylelint": "*",
+		"stylelint-config-standard": "*"
+	}
+}

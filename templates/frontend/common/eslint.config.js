@@ -2,7 +2,6 @@ export default [
 	{
 		extends: ["eslint:recommended", "prettier"],
 		env: {
-			// If you don't want to change this to `node: true` globally
 			es2022: true,
 			browser: true,
 		},
